@@ -11,11 +11,12 @@ class ProductUI extends Component {
 
   render() {
     return (
-      <ProductList
-        productData={this.props.productReducer}
-        onAddToCart={this.props.addToCart}
-        cartData={this.props.cartReducer}
-      />
+      // <ProductList
+      //   productData={this.props.productReducer}
+      //   onAddToCart={this.props.addToCart}
+      //   cartData={this.props.cartReducer}
+      // />
+      test
     );
   }
 }
