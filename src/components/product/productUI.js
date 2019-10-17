@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import { fetchProducts, addToCart } from "../../redux/actions";
 
+
 import ProductList from "./productList";
 
 class ProductUI extends Component {
@@ -11,12 +12,13 @@ class ProductUI extends Component {
 
   render() {
     return (
-      // <ProductList
-      //   productData={this.props.productReducer}
-      //   onAddToCart={this.props.addToCart}
-      //   cartData={this.props.cartReducer}
-      // />
-      test
+    
+        <ProductList
+        productData={this.props.productReducer}
+        onAddToCart={this.props.addToCart}
+        cartData={this.props.cartReducer}
+      />
+  
     );
   }
 }

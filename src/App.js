@@ -9,10 +9,11 @@ import "./App.css";
 function App() {
   return (
     <div className="mainContainer">
-        <BrowserRouter>
+        {/* <BrowserRouter>
             <Route exact path="/" component = {ProductUI} />
             <Route path="/cart" component = {CartUI} />
-        </BrowserRouter>
+        </BrowserRouter> */}
+        test
     </div>
   );
 }
